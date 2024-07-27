@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+    flex-direction: column;
+}
+
+.box {
+    background-color: rgba(43, 52, 226, 0.862);
+    min-height: 60vh;
+    width: 350px;
+    border-radius: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.header h2 {
+    color: #fff;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.marks {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    position: relative;
+    top: 30px;
+    left: 86px;
+    border: 1px solid darkblue;
+    padding: 10px 20px;
+    margin: 10px;
+    height: 150px;
+    width: 45%;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.251);
+}
+
+.score {
+    position: absolute;
+    font-size: 40px;
+    bottom: 40px;
+    left: 30px;
+    color: #fff;
+}
+
+.marks {
+    position: absolute;
+    top: 97px;
+    left: 40px;
+    color: #ffffff8c;
+}
+
+.msg {
+    display: flex;
+    justify-content: center;
+    margin-top: 57px;
+    font-size: 2rem;
+    color: white;
+}
+
+p {
+    font-size: large;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.box1 {
+    background-color: #fff;
+    min-height: 60vh;
+    width: 350px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.header1 h2 {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.box2, .box3, .box4, .box5 {
+    position: relative;
+    left: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 20px; /* Adjusted spacing */
+}
+
+.box2 {
+    background-color: rgba(255, 0, 0, 0.200);
+}
+
+.box2 p, .box3 p, .box4 p, .box5 p {
+    color: black;
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+}
+
+.box2 img, .box3 img, .box4 img, .box5 img {
+    margin-left: 10px;
+}
+
+.box2 h2, .box3 h2, .box4 h2, .box5 h2 {
+    margin-right: 40px;
+}
+
+.box2 h2 {
+    color: red;
+}
+
+.box3 {
+    background-color: rgba(255, 255, 0, 0.200);
+}
+
+.box3 h2 {
+    color: darkgoldenrod;
+}
+
+.box4 {
+    background-color: rgba(0, 128, 0, 0.200);
+}
+
+.box4 h2 {
+    color: green;
+}
+
+.box5 {
+    background-color: rgba(0, 0, 255, 0.200);
+}
+
+.box5 h2 {
+    color: blue;
+}
+
+button {
+    position: relative;
+    top: 40px;
+    left: 80px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 200px;
+    border: 1px solid darkblue;
+    color: #fff;
+    background-color: darkslateblue;
+    cursor: pointer;
+}
+
+@media (min-width: 769px) {
+    .container {
+        flex-direction: row;
+    }
+    
+}
